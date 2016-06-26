@@ -1,6 +1,9 @@
 version: "2"
 
 services:
+  entrypoint:
+    build: ./entrypoint
+    image: entrypoint
   vote:
     build: ./vote
     image: bfirsh/serverless-vote
